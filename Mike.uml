@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hatef</OriginalElement>
+  <nodes>
+    <node x="359.0" y="1513.0">com.hatef.ItemsWithDiscount</node>
+    <node x="108.08333333333331" y="588.0">com.hatef.Customer</node>
+    <node x="569.0833333333333" y="621.0">com.hatef.Cashier</node>
+    <node x="1022.5833333333333" y="0.0">com.hatef.Payable</node>
+    <node x="944.5833333333333" y="106.0">com.hatef.Basket</node>
+    <node x="0.0" y="1696.0">com.hatef.ItemsWithBuyMorePayLessFeature</node>
+    <node x="1282.0" y="1079.0">com.hatef.MenuController</node>
+    <node x="834.0833333333333" y="804.0">com.hatef.BasketForLoyalCustomers</node>
+    <node x="338.0" y="1663.0">com.hatef.ItemsWithTakeAllFeature</node>
+    <node x="1109.0833333333333" y="804.0">com.hatef.BasketForEmployee</node>
+    <node x="1775.0" y="1079.0">com.hatef.Store</node>
+    <node x="958.0" y="1079.0">com.hatef.Main</node>
+    <node x="613.0" y="1696.0">com.hatef.ItemsWithDicountIndependence</node>
+    <node x="359.0" y="1079.0">com.hatef.Item</node>
+    <node x="1608.0" y="1079.0">com.hatef.UserRole</node>
+    <node x="326.0833333333333" y="697.0">com.hatef.Manager</node>
+    <node x="322.5" y="0.0">com.hatef.User</node>
+    <node x="0.0" y="956.0">com.hatef.LoyalCustomer</node>
+    <node x="218.0" y="956.0">com.hatef.SimpleCustomer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hatef.SimpleCustomer" target="com.hatef.Customer">
+      <point x="0.0" y="-39.0" />
+      <point x="317.0" y="931.0" />
+      <point x="256.5833333333333" y="931.0" />
+      <point x="49.5" y="159.0" />
+    </edge>
+    <edge source="com.hatef.Cashier" target="com.hatef.User">
+      <point x="0.0" y="-126.0" />
+      <point x="679.0833333333333" y="563.0" />
+      <point x="515.8333333333333" y="563.0" />
+      <point x="77.33333333333326" y="269.0" />
+    </edge>
+    <edge source="com.hatef.Manager" target="com.hatef.User">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="269.0" />
+    </edge>
+    <edge source="com.hatef.ItemsWithTakeAllFeature" target="com.hatef.ItemsWithDiscount">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.hatef.Basket" target="com.hatef.Payable">
+      <point x="0.0" y="-324.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.hatef.ItemsWithDicountIndependence" target="com.hatef.ItemsWithDiscount">
+      <point x="0.0" y="-82.0" />
+      <point x="763.0" y="1638.0" />
+      <point x="536.5" y="1638.0" />
+      <point x="71.0" y="50.0" />
+    </edge>
+    <edge source="com.hatef.LoyalCustomer" target="com.hatef.Customer">
+      <point x="0.0" y="-39.0" />
+      <point x="99.0" y="931.0" />
+      <point x="157.58333333333331" y="931.0" />
+      <point x="-49.5" y="159.0" />
+    </edge>
+    <edge source="com.hatef.BasketForEmployee" target="com.hatef.Basket">
+      <point x="0.0" y="-71.0" />
+      <point x="1209.5833333333333" y="779.0" />
+      <point x="1156.0833333333333" y="779.0" />
+      <point x="70.5" y="324.0" />
+    </edge>
+    <edge source="com.hatef.ItemsWithBuyMorePayLessFeature" target="com.hatef.ItemsWithDiscount">
+      <point x="0.0" y="-82.0" />
+      <point x="159.0" y="1638.0" />
+      <point x="394.5" y="1638.0" />
+      <point x="-71.0" y="50.0" />
+    </edge>
+    <edge source="com.hatef.BasketForLoyalCustomers" target="com.hatef.Basket">
+      <point x="0.0" y="-71.0" />
+      <point x="961.5833333333333" y="779.0" />
+      <point x="1015.0833333333333" y="779.0" />
+      <point x="-70.5" y="324.0" />
+    </edge>
+    <edge source="com.hatef.Customer" target="com.hatef.User">
+      <point x="0.0" y="-159.0" />
+      <point x="207.08333333333331" y="563.0" />
+      <point x="361.1666666666667" y="563.0" />
+      <point x="-77.33333333333331" y="269.0" />
+    </edge>
+    <edge source="com.hatef.ItemsWithDiscount" target="com.hatef.Item">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="192.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.687401986408782" x="985.0" y="946.5" />
+  <SelectedNodes>
+    <node>com.hatef.Cashier</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
